@@ -143,16 +143,6 @@ streamlit run main.py
 
 -  Procesa datasets y entrena modelos de clasificación o clustering de forma programática.
 
-## Consideraciones de Ingeniería y Diseño
--  No almacenar datasets localmente: Los datasets se descargan desde OpenML en tiempo real.
-
--  Selección automática de columnas de texto y clase: Se filtran los datasets adecuados según el tipo de datos.
-
-- Paralelismo en búsquedas: Se emplean técnicas de búsqueda concurrente para acelerar el proceso.
-
-- Clustering con restricciones de tamaño: El pipeline permite especificar tamaños de clusters mediante algoritmos como K-Means balanceado y K-Medoids.
-
-- Reproducibilidad y aleatoriedad controlada: El uso de semillas aleatorias garantiza resultados reproducibles.
 
 
 ## Estructura del Repositorio
